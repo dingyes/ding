@@ -189,7 +189,7 @@ li,ul,ol{
 }
 .shangpin li{
 	height: 290px;
-	width: 270px;
+	width: 266px;
 	float: left;
 	border: 1px solid #000;
 	position: relative;
@@ -199,11 +199,11 @@ li,ul,ol{
 }
 .shangpin img{
 	height: 290px;
-	width: 270px;
+	width: 265px;
 }
 .shangpin li:hover .zi{
 	height: 160px;
-	width: 270px;
+	width: 265px;
 	opacity: 0.6;
 	background: #000;
 	position: absolute;
@@ -212,7 +212,7 @@ li,ul,ol{
 }
 .zi{
 	height: 50px;
-	width: 270px;
+	width: 265px;
 	opacity: 0.6;
 	background: #000;
 	position: absolute;
@@ -239,6 +239,13 @@ li,ul,ol{
 .down img{
 	text-indent: 30px;
 	margin-right: 20px;
+	margin-left: 35px;
+	float: left;
+}
+.ht{
+	width: 1px;
+	height: 47px;
+	background: #e0e0e0;
 	float: left;
 }
 .m{
