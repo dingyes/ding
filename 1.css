@@ -87,6 +87,8 @@ li,ul,ol{
 }
 .nav li:hover{
 	border-bottom: 3px solid #3aa747;
+}
+.nav li:hover a{
 	color: #3aa747;
 }
 .banner{
