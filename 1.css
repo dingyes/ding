@@ -225,6 +225,9 @@ li,ul,ol{
 	color: #fff;
 	text-align: center;
 }
+.zi p+p{
+	margin-top: 5px;
+}
 .down-container{
 	height: 100px;
 	background: #f5f5f5;
