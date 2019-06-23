@@ -70,7 +70,8 @@ li,ul,ol{
 	width: 59px;
 	float: left;
 }
-.nav li{
+.nav a{
+	display: block;
 	width: 85px;
 	height: 45px;
 	line-height: 45px;
@@ -80,18 +81,19 @@ li,ul,ol{
 .nav a{
 	color: #000;
 }
-.nav li+li{
+.nav a+a{
 	margin-right: 25px;
 }
-.nav li:first-child{
+.nav span{
+	height: 45px;
+	line-height: 45px;
+	float: left;
 	color: #050505;
 	width: 150px;
-	background: url(imgs/1.png) no-repeat 135px center;
+	background: url(imgs/1.png) no-repeat 115px center;
 }
-.nav li:hover{
+.nav a:hover{
 	border-bottom: 3px solid #3aa747;
-}
-.nav li:hover a{
 	color: #3aa747;
 }
 .banner{
@@ -214,7 +216,7 @@ li,ul,ol{
 	padding-top: 130px;
 }
 .zi{
-	height: 50px;
+	height: 60px;
 	width: 265px;
 	opacity: 0.6;
 	background: #000;
@@ -222,11 +224,9 @@ li,ul,ol{
 	bottom: 0;
 }
 .zi p{
+	margin-top: 5px;
 	color: #fff;
 	text-align: center;
-}
-.zi p+p{
-	margin-top: 5px;
 }
 .down-container{
 	height: 100px;
